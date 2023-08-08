@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var snacks = [
+            {
+                Brand: "Pringles",
+                Name: "Potato Chips - Sour Cream and Onion",
+                Stars: 4.2,
+                Ratings: 4811,
+                Weight: 107,
+                MRP: 103.50
+            } ,
+            {
+                Brand: "Britannia",
+                Name: "Good Day Cashew Cookies",
+                Stars: 4.1,
+                Ratings: 18754,
+                Weight: 1000,
+                MRP: 175.00
+            },
+            {
+                Brand: "McVitie's",
+                Name: "Digestive Biscuits",
+                Stars: 4.2,
+                Ratings: 464,
+                Weight: 959.1,
+                MRP: 169.15
+            },
+            {
+                Brand: "Haldirams",
+                Name: "Namkeen - Bhujia Sev",
+                Stars: 4.1,
+                Ratings: 11641,
+                Weight: 1000,
+                MRP: 260
+            }
+
+        ];
+        for (i = 0; i < snacks.length; i++) {
+            let snack = snacks[i];
+            for ( key in snack) {
+                console.log(snack[key]);
+                
+            }
+            
+        }
+    </script>
+</body>
+</html>
